@@ -1,5 +1,5 @@
 package coach.victory;
 
-public interface NoArgFunction<R>{
-    R apply();
+public interface NoArgFunction<R> {
+  R apply();
 }
