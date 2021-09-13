@@ -46,52 +46,44 @@ public class Chapter3Challenge1 {
 
   public static void main(String[] args) {
     Person[] peopleArr = {
-        new Person("Brandon", 23),
-        new Person("Hank", 43),
-        new Person("Jenna", 33),
-        new Person("Veronica", 56),
-        new Person("Jack", 27)
+      new Person("Brandon", 23),
+      new Person("Hank", 43),
+      new Person("Jenna", 33),
+      new Person("Veronica", 56),
+      new Person("Jack", 27)
     };
     List<Person> people = new ArrayList<>(Arrays.asList(peopleArr));
 
     // Get a list that contains all the people's names
-    List<String> res0 = people
-        .stream()
-        .map(person -> person.name)
-        .collect(Collectors.toList());
+    List<String> res0 = people.stream().map(person -> person.name).collect(Collectors.toList());
     System.out.println(res0);
 
     Car[] carsArr = {
-        new Car("Chevy", "red", 45000f),
-        new Car("Ford", "blue", 23000f),
-        new Car("Toyota", "grey", 14000f),
-        new Car("Lamborghini", "blue", 150000f),
-        new Car("Renault", "blue", 150000f)
+      new Car("Chevy", "red", 45000f),
+      new Car("Ford", "blue", 23000f),
+      new Car("Toyota", "grey", 14000f),
+      new Car("Lamborghini", "blue", 150000f),
+      new Car("Renault", "blue", 150000f)
     };
     List<Car> cars = new ArrayList<>(Arrays.asList(carsArr));
 
     // Get a list of all the blue cars
-    List<Car> res1 = cars
-        .stream()
-        .filter(car -> car.color == "blue")
-        .collect(Collectors.toList());
+    List<Car> res1 = cars.stream().filter(car -> car.color == "blue").collect(Collectors.toList());
     System.out.println(res1);
 
     Employee[] employeesArr = {
-        new Employee("John", 34, "developer", 80000f),
-        new Employee("Hannah", 24, "developer", 95000f),
-        new Employee("Bart", 50, "sales executive", 100000f),
-        new Employee("Sophie", 49, "construction worker", 40000f),
-        new Employee("Darren", 38, "writer", 50000f),
-        new Employee("Nancy", 29, "developer", 75000f)
+      new Employee("John", 34, "developer", 80000f),
+      new Employee("Hannah", 24, "developer", 95000f),
+      new Employee("Bart", 50, "sales executive", 100000f),
+      new Employee("Sophie", 49, "construction worker", 40000f),
+      new Employee("Darren", 38, "writer", 50000f),
+      new Employee("Nancy", 29, "developer", 75000f)
     };
     List<Employee> employees = new ArrayList<>(Arrays.asList(employeesArr));
 
     // Find the sum of all of the employee's salaries
-    Float res2 = employees
-        .stream()
-        .map(employee -> employee.salary)
-        .reduce(0f, (acc, x) -> acc +x);
+    Float res2 =
+        employees.stream().map(employee -> employee.salary).reduce(0f, (acc, x) -> acc + x);
     System.out.println(res2);
   }
 }
