@@ -36,7 +36,7 @@ Index:
     10. Solution: Average salary calculator [[Video]](https://www.linkedin.com/learning/functional-programming-with-java/solution-average-salary-calculator?autoplay=true&resume=false) [[Code]](https://github.com/hectorlopezmonroy/FunctionalJava/blob/master/src/coach.victory/Chapter3Challenge2.java)
 5. Advanced Concepts
     1. Advanced functional concepts [[Video]](https://www.linkedin.com/learning/functional-programming-with-java/advanced-functional-concepts?autoplay=true&resume=false)
-    2. Partial application and currying [[Video]](https://www.linkedin.com/learning/functional-programming-with-java/partial-application-and-currying?autoplay=true&resume=false)
-    3. Recursion [[Video]](https://www.linkedin.com/learning/functional-programming-with-java/recursion?autoplay=true&resume=false)
-    4. Composition [[Video]](https://www.linkedin.com/learning/functional-programming-with-java/composition?autoplay=true&resume=false)
+    2. Partial application and currying [[Video]](https://www.linkedin.com/learning/functional-programming-with-java/partial-application-and-currying?autoplay=true&resume=false) [[Code]](https://github.com/hectorlopezmonroy/FunctionalJava/blob/master/src/coach.victory/Chapter4Video2.java)
+    3. Recursion [[Video]](https://www.linkedin.com/learning/functional-programming-with-java/recursion?autoplay=true&resume=false) [[Code]](https://github.com/hectorlopezmonroy/FunctionalJava/blob/master/src/coach.victory/Chapter4Video3.java)
+    4. Composition [[Video]](https://www.linkedin.com/learning/functional-programming-with-java/composition?autoplay=true&resume=false) [[Code]](https://github.com/hectorlopezmonroy/FunctionalJava/blob/master/src/coach.victory/Chapter4Video4.java)
  
